@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
+body{
+    
+    background: linear-gradient(to right top, #d01031, #d60054, #d1007a, #be01a1, #9836c5, #9f3bc7, #a540c9, #ac45cb, #d93cad, #f2458e, #fc5c73, #fb775f);;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.user-list{
+    padding-top: 50px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:3px;
+}
+@media (min-width: 400px){
+.user-container{
+    max-width:300px;
+    margin: 10px; 
+    box-shadow: 1px 1px 3px black; 
+    transition: 0.2s;
+}
+}
+.header{
+    font-family: 'Tourney', cursive;
+    text-align:center;
+}
+.tag{
+    padding-bottom: 20px;
+    font-family: 'Tourney', cursive;
+    text-align:center;
+    font-weight: 500;
+    font-size: 40px;
+}
+ .content{
+     text-align: left; 
+    padding: 5%;
+} 
+.text1{
+    font-size: 20px;
+    text-align: left;
+}
+.time{
+    font-size: 20px;
+    color: rgb(10, 2, 2);
+}
+.des{
+    font-size: 15px;
+    font-weight: lighter;
+    color: #000;
+}
+.image{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.user-container:hover {
+    transform: scale(1.1);
+}
+
+.text{
+    color: rgb(238, 85, 85);
+    font-size:30px ;
+}
+.text:hover{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.macard {
+    background:url("https://previews.123rf.com/images/belchonock/belchonock1906/belchonock190612672/125157259-set-of-luxury-makeup-products-on-white-background-flat-lay.jpg");
+    border-radius: 24px;
+    padding: 24px;
+    color: #181059;
+    font-family: "Inter", sans-serif;
+    transition: all 0.2s;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    gap: 100px;
+  }
+  .macard:hover {
+    background: url("https://images.pexels.com/photos/2253833/pexels-photo-2253833.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    color: #ffffff;
+  }
+  .img{
+      height: 50px;
+      width:50px ;
+  }
+.bar{
+    
+    display: grid;
+    /* place-items:center; */
+    grid-template-columns: 4fr 4fr 4fr  4fr 4fr 4fr;
+    gap:3px;
+}
+.refresh{
+    border-radius:16px;
+    font-family: fantasy;
+    font-weight: 500;
+} 
+.refresh:hover{
+    background: linear-gradient(to right top, #d01031, #d60054, #d1007a, #be01a1, #9836c5, #9f3bc7, #a540c9, #ac45cb, #d93cad, #f2458e, #fc5c73, #fb775f);
+
+}
